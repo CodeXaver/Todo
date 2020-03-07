@@ -30,6 +30,7 @@ data.push({
 
 localStorage['todos'] = JSON.stringify(data);
  alert("successfully added");
+    window.location.reload();
 }
 else{
   alert("please provide Todo title and description");
